@@ -1,0 +1,15 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.head h1{
+   text-align: center; 
+}
+.nav-bar ul {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0px 500px;
+}
+

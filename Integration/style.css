@@ -141,5 +141,35 @@ margin-bottom: 10px;
 }
 /*---------section articles--------*/
 #articles{
-    background-color: gainsboro;
+   background-image: url(../Integration/nature2.jpg);
+   background-size: cover;
+}
+#articles h2{
+    text-align: center;
+}
+.btn-com{
+    display: flex;
+    justify-content: space-between;
+}
+.article1 img{
+    width: 100%;
+    height: 200px;
+    
+}
+.article1 {
+    padding: 20px;
+}
+.article2 {
+    padding: 20px;
+}
+.article3 {
+    padding: 20px;
+}
+.article2 img{
+    width: 100%;
+    height: 200px;
+}
+.article3 img{
+    width: 100%;
+    height: 200px;
 }

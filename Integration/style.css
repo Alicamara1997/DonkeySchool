@@ -1,15 +1,145 @@
 * {
     list-style: none;
     text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
-
 .head h1{
-   text-align: center; 
+   text-align: center;
+   border: solid 2px black;
+   width: 30%;  
+   margin:auto;
+   border-radius: 12px;
+   font-size: x-large;
+   margin-top: 5px;
 }
-.nav-bar ul {
+#nav-bar ul {
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin: 0px 500px;
+margin: 0px 400px;
+margin-top: 20px;
+
+}
+.head {
+    background-color: aqua;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+}
+/*---------section presentation-----------*/
+#presentation{
+    background-image: url(../Integration/image4.png);
+    color: white;
+}
+#presentation h2{
+    text-align: center;
+}
+.ma{
+    margin-top: 0px;
+}
+/*---------section projets-------------*/
+.projet-all{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   align-items: center;
+   margin: auto;
+   text-align: center;
+   
+}
+.projet1{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.projet1 img{
+    width: 100%;
+    height: 200px;  
+     
+}
+.projet2{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-right: 40px;
 }
 
+.projet2 img{
+    width: 100%;
+    height: 200px;
+}
+.projet3{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.projet3 img{
+    width: 100%;
+    height: 200px;
+}
+#projets{
+    background-image: url(../Integration/image4.png);
+    width: 100%;
+    padding-bottom: 20px;
+    height: 100%;
+}
+#projets h2{
+    text-align: center;
+    color: white;
+}
+/*--------------section etudes et experiences----------*/
+.etudes{
+background-image: url(../Integration/nature1.jpg);
+width: 100%;
+background-size: cover;
+}
+.etudes h2{
+    text-align: center;
+}
+.profil img{
+width: 300px;
+height: 200px;
+margin-bottom: 10px;
+}
+.profil{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: start;
+}
+.info2 p{
+    padding-bottom: 0px;
+}
+.experiences{
+    display: flex;
+    justify-content: space-between;
+}
+.exp1{
+    background-color: gainsboro;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+.exp2{
+    background-color: gainsboro;
+    margin: 0px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.exp3{
+    background-color: gainsboro;
+    margin: 0px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.exp4{
+    background-color: gainsboro;
+    margin: 0px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+/*---------section articles--------*/
+#articles{
+    background-color: gainsboro;
+}

@@ -8,7 +8,9 @@
 </head>
 <body>
     <section class="head">
+        <div class="portfolio">
         <h1>MON PORTFOLIO</h1>
+    </div>
         <nav id="nav-bar">
             <ul>
                 <li><a href="#">projets</a></li>
@@ -161,13 +163,20 @@
      </section>
         <section id="contact">
             <h2>contact</h2>
-            <p>nom et prenom</p>
-            <p>Email</p>
-            <p>message</p>
-            <p>envoyer</p>
+         
+            <form action="infos.php">
+                <label for="camara">Nom et Prénom</label> <br>
+                <input type="text" id="camara" placeholder="Saisir votre nom"> <br>
+                <label for="cam">E-mail</label> <br>
+                <input type="email" id="cam" placeholder="Saisir votre E-mail"> <br>
+                <label for="ali">Message</label> <br>
+                <textarea name="ali" id="ali" cols="40" rows="10" placeholder="Laissez-nous un message"></textarea> <br>
+                <input type="submit" value="Envoyer">
+            </form>
+         
         </section>
     </main>
-    <footer>
+    <footer id="foot">
         <h4>monportfolio.com</h4>
     </footer>
 </body>

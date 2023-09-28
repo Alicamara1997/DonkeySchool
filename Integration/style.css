@@ -1,3 +1,10 @@
+@media screen and (max-width: 900px){
+    .projet-all{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
 * {
     list-style: none;
     text-decoration: none;
@@ -46,11 +53,13 @@ margin-top: 20px;
    margin: auto;
    text-align: center;
    
+   
 }
 .projet1{
     background-color: antiquewhite;
     border-radius: 10px;
     margin-right: 40px;
+    padding-bottom: 10px;
 }
 .projet1 img{
     width: 100%;
@@ -62,17 +71,19 @@ margin-top: 20px;
     background-color: antiquewhite;
     border-radius: 10px;
     margin-right: 40px;
+    padding-bottom: 10px;
 }
 
 .projet2 img{
     width: 100%;
     height: 200px;
-    display: flex;
+   
 }
 .projet3{
     background-color: antiquewhite;
     border-radius: 10px;
     margin-right: 40px;
+    padding-bottom: 10px;
 }
 
 .projet3 img{
@@ -89,12 +100,14 @@ margin-top: 20px;
 #projets h2{
     text-align: center;
     color: white;
+    padding: 20px 0px;
 }
 /*--------------section etudes et experiences----------*/
 .etudes{
 background-image: url(../Integration/nature1.jpg);
 width: 100%;
 background-size: cover;
+padding-bottom: 20px;
 }
 .etudes h2{
     text-align: center;
@@ -123,11 +136,17 @@ margin-bottom: 10px;
     margin: 0px 10px;
     border-radius: 10px;
 }
+.exp1:hover{
+    color: blue;
+}
 .exp2{
     background-color: gainsboro;
     margin: 0px 10px;
     border-radius: 10px;
     text-align: center;
+}
+.exp2:hover{
+    color: blueviolet;
 }
 .exp3{
     background-color: gainsboro;
@@ -135,11 +154,17 @@ margin-bottom: 10px;
     border-radius: 10px;
     text-align: center;
 }
+.exp3:hover{
+    color: green;
+}
 .exp4{
     background-color: gainsboro;
     margin: 0px 10px;
     border-radius: 10px;
     text-align: center;
+}
+.exp4:hover{
+    color: brown;
 }
 /*---------section articles--------*/
 #articles{
@@ -195,5 +220,34 @@ margin-bottom: 10px;
 
 /*----------section footer-----------*/
 #foot{
+    text-align: center;
+}
+/*-----------section competences---------*/
+.htmlc-color{
+    width: 60%;
+    height: 20px;
+    background-color: blue;
+}
+.python-color{
+    width: 30%;
+    height: 20px;
+    background-color: blue;
+}
+.java-color{
+    width: 50%;
+    height: 20px;
+    background-color: blue;
+}
+.hph-color{
+    width: 50%;
+    height: 20px;
+    background-color: blue;
+}
+.angular-color{
+    width: 40%;
+    height: 20px;
+    background-color: blue;
+}
+.competence h1{
     text-align: center;
 }
